@@ -1,0 +1,1 @@
+import{A as s,c as t,o as a,b as c,a as n,$ as r}from"./54-89Uud.js";import{_ as d}from"./DlAUqK2U.js";const l={class:"min-h-screen flex"},_={class:"flex-1 min-w-0 pt-14"};function m(e,f){const o=s("Header");return a(),t("div",l,[c(o),n("div",_,[r(e.$slots,"default")])])}const i={},h=d(i,[["render",m]]);export{h as default};
