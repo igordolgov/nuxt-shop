@@ -1,0 +1,51 @@
+/* app\assets\css\main.css */
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: 'corporate', 'business';
+};
+
+[data-theme="corporate"] {
+  .badge, .btn, .checkbox {
+    color: white;
+  }
+  .my-btn:hover {
+    background-color: #1C96E1;
+    border-color: #1C96E1;
+  }
+}
+
+html, body {
+  max-width: 100dvw;
+  scrollbar-gutter: stable;
+}
+
+html {
+  transition: all 0.3s ease;
+}
+
+Явно устанавливаем темную тему по умолчанию
+:root {
+  color-scheme: 'business';
+}
+
+/* Гарантируем применение темной темы */
+[data-theme="dark"] {
+  color-scheme: 'business';
+}
+
+/* Дополнительные стили для уведомлений */
+.custom-notification {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .custom-notification {
+    min-width: calc(100vw - 40px) !important;
+    max-width: calc(100vw - 40px) !important;
+    right: 20px !important;
+    left: 20px !important;
+  }
+}
+
