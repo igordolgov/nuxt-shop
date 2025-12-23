@@ -1,0 +1,54 @@
+[
+  {
+    "id": "1",
+    "name": "Админ",
+    "email": "admin@test.com",
+    "password": "$2b$12$Z84j/WAfqi1lrVfTUg6qfO/o/NtHLP1QtolFrtcM7ulqg3jbeRQM.",
+    "role": "admin",
+    "phone": "+79991234567",
+    "address": "Москва, ул. Примерная, д. 1",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-11-20T16:10:41.383Z"
+  },
+  {
+    "id": "2",
+    "name": "Менеджер Отдела",
+    "email": "manager@test.com",
+    "password": "$2b$12$Z84j/WAfqi1lrVfTUg6qfO/o/NtHLP1QtolFrtcM7ulqg3jbeRQM.",
+    "role": "manager",
+    "phone": "+79991234568",
+    "address": "Москва, ул. Тестовая, д. 2",
+    "createdAt": "2024-01-02T00:00:00.000Z",
+    "updatedAt": "2024-01-02T00:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "Обычный Пользователь",
+    "email": "user@test.com",
+    "password": "$2b$12$Z84j/WAfqi1lrVfTUg6qfO/o/NtHLP1QtolFrtcM7ulqg3jbeRQM.",
+    "role": "user",
+    "phone": "+79991234569",
+    "address": "Москва, ул. Пользовательская, д. 3",
+    "favorites": [
+      "1",
+      "2"
+    ],
+    "createdAt": "2024-01-03T00:00:00.000Z",
+    "updatedAt": "2024-01-03T00:00:00.000Z"
+  },
+  {
+    "id": "1763479012141",
+    "name": "Алёна",
+    "email": "alenadolgova@gmail.com",
+    "password": "$2b$12$F7vot2K/QoBxzi1cYBDPsOSY4qSRcKAp3mRE/ZafQY2ci0a2vllAm",
+    "role": "admin",
+    "phone": "",
+    "address": "",
+    "favorites": [
+      "1",
+      "2"
+    ],
+    "createdAt": "2025-11-18T15:16:52.141Z",
+    "updatedAt": "2025-11-20T13:20:37.012Z"
+  }
+]
